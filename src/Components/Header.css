@@ -1,0 +1,112 @@
+/* Header.css */
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Style the header container */
+  div {
+    /* Add some spacing around the header */
+    padding: 2px;
+  }
+  
+  /* Style the marquee container */
+  .marquee-container {
+    overflow: hidden;
+    background-color: black;
+    color: #ffffff;
+  }
+  
+  /* Style the marquee content */
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee-animation 10s linear infinite;
+  }
+  
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    width: 70px;
+    height: 60px;
+  }
+  
+  /* Style the brand name */
+  #brand {
+    margin-left: 10px;
+    font-size: 24px;
+    color: #858585;
+  }
+  
+  /* Style the search input and button */
+  .search input {
+    padding: 5px;
+    border:1px solid;
+    border-color: #c9c9c9;
+    border-radius: 2px;
+  }
+  
+  .search button {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid;
+    border-color: #dadada;
+    background-color: #ffffff;
+   
+}
+  .search button:hover{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  /* Style the navigation list */
+  .list ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .list li {
+    margin-right: 30px;
+  }
+  
+  .list li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  /* Style the icons container */
+  .icons {
+    display: flex;
+  }
+  
+  .icons a {
+    margin-left: 10px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Add some spacing between the icons */
+  .icons a:not(:first-child) {
+    margin-left: 20px;
+  }
+  

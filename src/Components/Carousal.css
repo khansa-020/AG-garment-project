@@ -1,0 +1,45 @@
+/* CustomCarousel.css */
+/* Add CSS reset to remove default padding and margins */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the carousel container to cover the entire viewport */
+  .Carousel {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Set the carousel items to cover the entire viewport */
+  .Carousel .CarouselItem {
+    height: 100%;
+  }
+  
+  /* Center the carousel captions */
+  .Carousel .CarouselCaption {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to captions */
+    padding: 10px;
+  }
+  
+  /* Optional: Customize caption text styles */
+  .Carousel .CarouselCaption h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Carousel .CarouselCaption p {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  /* Adjust the image size to fit the container */
+  .Carousel .CarouselItem img {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+  }
+  

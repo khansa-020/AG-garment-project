@@ -1,0 +1,66 @@
+/* ProductCard.css */
+
+/* Reset default margin and padding for better consistency */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ProductCard.css */
+.slider-container {
+  width: 100%;
+  height: 10%; /* Set the desired height */
+}
+
+
+/* Style for the product card container */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the product image */
+.image-container img {
+  width: 100%; /* Adjust the image size as needed */
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Style for the product name */
+.card-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style for the product price */
+.price {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Style for the favorite and add to cart buttons */
+.favorite-button,
+.add-to-cart-button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favorite-button:hover,
+.add-to-cart-button:hover {
+  background-color: #0056b3; /* Change to your desired hover color */
+}
