@@ -3,7 +3,8 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
-    
+    font-family: 'Montserrat', sans-serif;
+
   }
   
   /* Style the header container */
@@ -47,8 +48,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   
   /* Style the logo */
   .logo img {
-    width: 70px;
-    height: 60px;
+    width: 75px;
+    height: 65px;
+    margin-left: 20px;
   }
   
   /* Style the brand name */
@@ -60,14 +62,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   
   /* Style the search input and button */
   .search input {
-    padding: 5px;
+    padding: 5px 10px;
     border:1px solid;
     border-color: #c9c9c9;
     border-radius: 2px;
   }
   
   .search button {
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 2px;
     border: 1px solid;
     border-color: #dadada;
@@ -82,10 +84,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   .list ul {
     list-style: none;
     display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size:smaller;
+    font-style: normal;    
+    font-weight: 500;
   }
   
   .list li {
-    margin-right: 30px;
+    margin-right: 25px;
   }
   
   .list li a {
@@ -99,10 +105,10 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   }
   
   .icons a {
-    margin-left: 10px;
-    color: #000000;
+    margin-left: 1px;
+    color: #1c1c1c;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
   }
   
   /* Add some spacing between the icons */

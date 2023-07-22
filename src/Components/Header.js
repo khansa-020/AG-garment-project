@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'
-import { FaBeer, FaEnvelope, FaBell, FaSearch } from 'react-icons/fa';
-import logo from  '../Images/logo.png'
+import './Header.css';
+import { FaUser, FaSearch, FaHeart, FaWhatsapp, FaCartPlus } from 'react-icons/fa';
+import logo from  '../Images/logo.png';
+import 'typeface-montserrat';
+
 
 const Header = () => {
   return (
@@ -10,7 +12,7 @@ const Header = () => {
 
       <div className="marquee-container">
       <div className="marquee-content">
-        <h5>Free shipping on all orders above PKR 2000.</h5>
+        <h6>Free shipping on all orders above PKR 2000.</h6>
       </div>
     </div>
       
@@ -22,12 +24,12 @@ const Header = () => {
 
         <div className="list">
           <ul>
-            <li><Link to="/">Home</Link></li>
-             <li><Link to="/NewIn">New In</Link></li>
-            <li><Link to="/Unstiched">UnStiched</Link></li>
-            <li><Link to="/ReadyToWear">Ready To Wear</Link></li> 
-            <li><Link to="/Embroidered"> Embroidered</Link></li> 
-            <li><Link to="/Sale"> Clearance Sale</Link></li>
+            {/* <li><Link to="/">HOME</Link></li> */}
+             <li><Link to="/NewIn">NEW IN</Link></li>
+            <li><Link to="/Unstiched">UN STICHED</Link></li>
+            <li><Link to="/ReadyToWear">READY TO WEAR</Link></li> 
+            <li><Link to="/Embroidered"> EMBROIDERED</Link></li> 
+            <li><Link to="/Sale"> CLEREANCE SALE</Link></li>
 
           </ul>
         </div>
@@ -41,9 +43,10 @@ const Header = () => {
         
        
         <div className="icons">
-          <Link to="#"><FaBeer /></Link>
-          <Link to="#"><FaEnvelope /></Link>
-          <Link to="#"><FaBell /></Link>
+        <Link to="#"><FaWhatsapp /></Link>
+          <Link to="#"><FaUser/></Link>
+          <Link to="#"><FaHeart /></Link>
+          <Link to="#"><FaCartPlus/></Link>
         </div> 
       </nav>
     </div>
