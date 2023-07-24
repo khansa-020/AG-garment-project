@@ -1,0 +1,82 @@
+/* SliderCard.css */
+
+/* Styles for the slider container */
+.slider-container {
+    width: 95%; /* Adjust the width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Styles for the product card */
+  .product-card {
+    background-color: #eeeeee;
+    padding: 0px 1px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the product card image */
+  .product-card .image-container img {
+    max-width: 100%;
+    height:fit-content;
+    margin: 0px;
+  }
+  
+  /* Styles for the product name */
+  .product-card .card-heading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  /* Styles for the add to cart button */
+  .product-card .add-to-cart-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the custom previous arrow */
+  .custom-prev-arrow {
+    position: absolute;
+    top: 30%;
+    left: -40px; /* Adjust the distance from the left side */
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #333;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the custom next arrow */
+  .custom-next-arrow {
+    position: absolute;
+    top: 30%;
+    right: -40px; /* Adjust the distance from the right side */
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #333;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .slick-track{
+    height: 255px;;
+  }
+  
+  /* Styles for the slider dots */
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: #5b5a5a;
+    opacity: 0.5;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    border-color: #ffffff;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+  }
+
+  .grid-item h3{
+    padding: 70px 10px;
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+  }
+  
+  .grid-item > .card {
+    border: none; /* Remove the border for the immediate .card children */
+  }
+  
+  .card img {
+    border-radius: 300px;
+    height: 100px;
+    width:100px;
+    color: #ffffff;
+    -moz-border-radius: 300px;
+    -ms-border-radius: 300px;
+    -o-border-radius: 300px;
+    -webkit-border-radius: 300px;
+  }
+  

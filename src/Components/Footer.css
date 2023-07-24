@@ -1,0 +1,60 @@
+
+body{
+    padding: 10px;
+    margin: 0px
+}
+
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: rgb(198, 198, 198);
+  }
+  
+  .grid {
+    padding: 50px 25px;
+    border: none;
+  }
+  .grid h4{
+    padding: 10px 0px;
+  }
+  .grid li{
+    list-style: none;
+    padding: 10px  20 px;
+    font-weight: 400;
+    font-size: small;
+  }
+  .contact-form-grid {
+    grid-column: 1 / 2;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  
+  
+  label {
+    font-weight:normal;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 50px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

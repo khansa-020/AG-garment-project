@@ -1,67 +1,93 @@
 /* ProductCard.css */
 
-/* Reset default margin and padding for better consistency */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-
-/* ProductCard.css */
+/* Styles for the slider container */
 .slider-container {
-  width: 100%;
-  height: 10%; /* Set the desired height */
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
 }
 
-
-/* Style for the product card container */
+/* Styles for the product card */
 .product-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: #f0f0f0;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
+  text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the product image */
-.image-container img {
-  width: 100%; /* Adjust the image size as needed */
+/* Styles for the product card image */
+.product-card .image-container img {
+  max-width: 100%;
   height: auto;
-  border-radius: 5px;
 }
 
-/* Style for the product name */
-.card-heading {
+/* Styles for the product name */
+.product-card .card-heading {
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
 }
 
-/* Style for the product price */
-.price {
+/* Styles for the product price */
+.product-card .price {
   font-size: 16px;
   margin-top: 5px;
 }
 
-/* Style for the favorite and add to cart buttons */
-.favorite-button,
-.add-to-cart-button {
-  margin-top: 10px;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
+/* Styles for the favorite button */
+.product-card .favorite-button {
+  background-color: #ff5722;
   color: #fff;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border: none;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-.favorite-button:hover,
-.add-to-cart-button:hover {
-  background-color: #0056b3; /* Change to your desired hover color */
+/* Styles for the add to cart button */
+.product-card .add-to-cart-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
 }
- 
+
+/* Styles for the custom previous arrow */
+.custom-prev-arrow {
+  position: absolute;
+  top: 30%;
+  left: -40px; /* Adjust the distance from the left side */
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #333;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the custom next arrow */
+.custom-next-arrow {
+  position: absolute;
+  top: 30%;
+  right: -40px; /* Adjust the distance from the right side */
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #333;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the slider dots */
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+}

@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousal.css'
-import myimage from '../Images/Cover 1.png';
+import myimage from '../Images/cover2.webp';
 
 
 function UncontrolledExample() {
@@ -33,6 +33,28 @@ function UncontrolledExample() {
         <img
           className="d-block w-100"
           src="https://www.limelight.pk/cdn/shop/files/Desktop-Banner-1920-X-600-eid-Men_360f175a-e2fb-4378-afd7-947472e7044a.jpg?v=1688364190"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.limelight.pk/cdn/shop/files/Desktop-Banner-1920-X-600-Girls_06a8bb89-89f9-41c3-9a4b-fc8d24277907.jpg?v=1688363555"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.limelight.pk/cdn/shop/files/Desktop_b71401a4-89c5-4487-8475-872c32057552.jpg?v=1687347869"
           alt="Third slide"
         />
 
