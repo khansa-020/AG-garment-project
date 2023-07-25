@@ -8,6 +8,7 @@ import Brands from '../Components/Brands'
 import Footer from '../Components/Footer'
 
 import './Home.css'
+import Layout from '../Components/Layout'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <br></br>
         <Categories/>
         <Footer/>
+        <Layout/>
     </div>
   )
 }

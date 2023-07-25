@@ -1,13 +1,14 @@
-import React from 'react'
-import Header from './Header'
-import ProductCard from './ProductCard'
+import React, {useState, useEffect} from 'react';
+
 
 const Layout = () => {
+
+      const [data, setData] =useState(initialstate);
+      
+
   return (
     <>
-        <Header/>
-        <ProductCard/>
-        <h1>Layput</h1>
+        
         
     </>
   )
