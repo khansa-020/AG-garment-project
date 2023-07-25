@@ -1,6 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousal.css'
 import myimage from '../Images/cover2.webp';
+import cover from '../Images/AJ_BANNER.webp';
+
 
 
 function UncontrolledExample() {
@@ -54,7 +56,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.limelight.pk/cdn/shop/files/Desktop_b71401a4-89c5-4487-8475-872c32057552.jpg?v=1687347869"
+          src={cover}
           alt="Third slide"
         />
 

@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const SliderCard = () => {
-  const products = [
+  const product = [
     {
         id: 1,
         image: 'https://asimjofa.com/cdn/shop/products/Untitled-1-22.jpg?v=1681795391&width=360',
@@ -85,12 +85,12 @@ const SliderCard = () => {
   return (
   <div className="slider-container">
     <Slider {...sliderSettings}>
-      {products.map((product) => (
-        <div key={product.id} className="product-card">
+      {product.map((product) => (
+        <div key={product.id} className="product-card ">
           <div className="image-container">
             <img src={product.image} alt={product.name} />
           </div>
-          <h3 className="card-heading"> <button className="add-to-cart-button">{product.name}</button></h3>
+          <h3 className="card-heading"> <button className="cart-button">{product.name}</button></h3>
         </div>
       ))}
     </Slider>

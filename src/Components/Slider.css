@@ -29,7 +29,7 @@
   
   
   /* Styles for the add to cart button */
-  .product-card .add-to-cart-button {
+  .product-card .cart-button {
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;

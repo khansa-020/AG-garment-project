@@ -14,13 +14,13 @@ const ProductCard = () => {
     },
     {
       id: 2,
-      image: 'https://asimjofa.com/cdn/shop/files/2nd_category_tile.jpg?v=1686822999&width=400',
+      image: 'https://asimjofa.com/cdn/shop/files/MG_1994.jpg?v=1683897963&width=360',
       name: 'Product Name 2',
       price: '$457.99',
     },
     {
       id: 3,
-      image: 'https://asimjofa.com/cdn/shop/files/Baad_e_Naubahar_591fb221-89f1-492a-a3c0-3be11ce1664c.jpg?v=1688814252&width=600',
+      image: 'https://asimjofa.com/cdn/shop/files/MG_2120.jpg?v=1683898002&width=360',
       name: 'Product Name 3',
       price: '$289.99',
     },
@@ -81,7 +81,7 @@ const ProductCard = () => {
 
 
   return (
-  <div className="slider-container">
+  <div className="slider-container_2">
     <Slider {...sliderSettings}>
       {products.map((product) => (
         <div key={product.id} className="product-card">

@@ -1,16 +1,19 @@
 import React from 'react'
 import Header from '../Components/Header';
+import ProductCard from '../Components/ProductCard';
 
 
 
-const New_in = () => {
+
+const NewIn = () => {
   return (
     <div>
+    
       <Header/>
-      
+      <ProductCard/>
       
    </div>
   )
 }
 
-export default New_in
+export default NewIn

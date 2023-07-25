@@ -10,7 +10,7 @@ import About from "./Pages/About";
 import Sale from "./Pages/Sale";
 import ReadyToWear from "./Pages/Ready_to_wear";
 import Embroidered from './Pages/Embroidered'
-import NewIn from "./Pages/New_in";
+import NewIn from "./Pages/NewIn";
 import Unstiched from "./Pages/Unstiched";
 
 
@@ -24,7 +24,7 @@ function App() {
         <Route path="/Embroidered" element={<Embroidered />} />
          <Route path="/Ready_to_wear" element={<ReadyToWear/>} />
          <Route path="/Unstiched" element={<Unstiched/>} />
-        <Route path="/New_in" element={<NewIn />} />
+        <Route path="/NewIn" element={<NewIn />} />
       </Routes>
     </BrowserRouter>
   );

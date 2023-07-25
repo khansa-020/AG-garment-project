@@ -1,5 +1,6 @@
 import React from 'react';
 import myimage from '../Images/051A5791.webp';
+//import cover from  '../Images/AJKM-15_3.jpg';
 
 const Categories = () => {
   return (
