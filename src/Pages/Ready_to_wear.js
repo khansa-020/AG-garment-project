@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../Components/Header';
 
-function Ready_to_wear() {
+
+
+const Ready_to_wear = () => {
   return (
-    <div>Ready_to_wear</div>
+    <div>
+      <Header/>
+      
+      
+   </div>
   )
 }
 

@@ -1,8 +1,14 @@
 import React from 'react'
+import Header from '../Components/Header';
 
-function Stiched() {
+
+const Stiched = () => {
   return (
-    <div>Stiched</div>
+    <div>
+      <Header/>
+      
+      
+   </div>
   )
 }
 

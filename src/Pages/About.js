@@ -1,13 +1,11 @@
 import React from 'react'
-import Header from '../Components/Header'
+//import Header from '../Components/Header';
 
-export default function About() {
+
+const About = () => {
   return (
-    <div>
-        <Header/>
-        <div>
-            This is a About Us .
-        </div>
-    </div>
+    <div>About</div>
   )
 }
+
+export default About

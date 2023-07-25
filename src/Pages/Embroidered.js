@@ -1,8 +1,14 @@
 import React from 'react'
+import Header from '../Components/Header';
 
-function Embroidered() {
+
+const Embroidered = () => {
   return (
-    <div>Embroidered</div>
+    <div>
+      <Header/>
+      
+      
+   </div>
   )
 }
 

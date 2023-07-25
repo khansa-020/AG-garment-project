@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../Components/Header';
 
-function New_in() {
+
+
+const New_in = () => {
   return (
-    <div>New_in</div>
+    <div>
+      <Header/>
+      
+      
+   </div>
   )
 }
 
